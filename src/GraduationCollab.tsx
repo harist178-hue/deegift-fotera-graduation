@@ -54,22 +54,6 @@ const fadeIn = (
     },
   );
 
-const fadeOut = (
-  frame: number,
-  end: number,
-  duration = 18,
-) =>
-  interpolate(
-    frame,
-    [end - duration, end],
-    [1, 0],
-    {
-      extrapolateLeft: "clamp",
-      extrapolateRight: "clamp",
-      easing: easeOut,
-    },
-  );
-
 const scaleIn = (
   frame: number,
   start: number,
@@ -1650,7 +1634,7 @@ export default function GraduationCollab() {
       }}
     >
       {/* 0–3.3 */}
-      <Sequence from={0} durationInFrames={99}>
+      <Sequence durationInFrames={99}>
         <Opening />
       </Sequence>
 

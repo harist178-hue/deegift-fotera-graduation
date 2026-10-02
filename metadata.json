@@ -1,0 +1,8 @@
+{
+  "name": "DeeGift x Fotera Graduation Video",
+  "description": "Remotion video collaboration for DeeGift and Fotera studio graduation celebration at UNIGORO 2026.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "permissions": []
+}
