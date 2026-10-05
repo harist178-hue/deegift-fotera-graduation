@@ -5,6 +5,7 @@ export default [
   {
     rules: {
       "@remotion/no-object-fit-on-media-video": "off",
+      "@remotion/non-pure-animation": "off",
     },
   },
 ];
